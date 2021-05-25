@@ -1,0 +1,33 @@
+{
+  "name": "exercises-pgm-lucaheym",
+  "version": "1.0.0",
+  "description": "A simple landing page in Eleventy",
+  "main": "index.js",
+  "scripts": {
+    "eleventy": "npx eleventy",
+    "sass": "sass --style=compressed src/style/main.scss src/main.css",
+    "watch:sass": "npm run sass -- --watch",
+    "watch:eleventy": "eleventy --serve",
+    "start": "npm-run-all sass --parallel watch:*",
+    "build": "npm run eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgmgent-2021-uip/exercises-pgm-lucaheym.git"
+  },
+  "keywords": [
+    "Walking",
+    "Eleventy"
+  ],
+  "author": "Lucas Heymans",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pgmgent-2021-uip/exercises-pgm-lucaheym/issues"
+  },
+  "homepage": "https://github.com/pgmgent-2021-uip/exercises-pgm-lucaheym#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1",
+    "@11ty/eleventy-navigation": "^0.1.6"
+  },
+  "dependencies": {}
+}
