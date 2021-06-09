@@ -17,10 +17,10 @@ eleventyNavigation:
         </span>
     </article>
     <div class="image person">
-        <img src="assets/img/ik.jpg" alt="">
+        <img src="{{ 'assets/img/ik.jpg' | url}}" alt="">
         <span class="line"></span>
         <article class="text-cont">
-            <p class="text-cont__discover">Discover more <a href="/about">about me</a></p>
+            <p class="text-cont__discover">Discover more <a href="{{'/about' | url }}">about me</a></p>
         </article>
     </div>
     

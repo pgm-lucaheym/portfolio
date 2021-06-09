@@ -1,35 +1,35 @@
 [
     {
         "title":"photoshop",
-        "img": "assets/img/socials/photoshop.png"
+        "img": "{{ 'assets/img/socials/photoshop.png' | url }}"
     },
     {
         "title":"illustrator",
-        "img": "assets/img/socials/illustrator.png"
+        "img": "{{ 'assets/img/socials/illustrator.png' | url }}"
     },
     {
         "title":"XD",
-        "img": "assets/img/socials/xd.png"
+        "img": "{{ 'assets/img/socials/xd.png' | url }}"
     },
     {
         "title":"VsCode",
-        "img": "assets/img/socials/vs.png"
+        "img": "{{ 'assets/img/socials/vs.png' | url }}"
     },
     {
         "title":"HTML5",
-        "img": "assets/img/socials/html.png"
+        "img": "{{ 'assets/img/socials/html.png' | url }}"
     },
     {
         "title":"CSS3",
-        "img": "assets/img/socials/css.png"
+        "img": "{{ 'assets/img/socials/css.png' | url }}"
     }
     ,
     {
         "title":"JavaScript",
-        "img": "assets/img/socials/Javascript_Logo.png"
+        "img": "{{ 'assets/img/socials/Javascript_Logo.png' | url }}"
     },
     {
         "title":"React",
-        "img": "assets/img/socials/react.png"
+        "img": "{{ 'assets/img/socials/react.png' | url }}"
     }
 ]
