@@ -1,1 +1,74 @@
-<h2>Contact page</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas Heymans - Contact</title>
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+<nav class="nav container">
+<!--<a href="#">
+    <svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14">
+        <g id="Group_1" data-name="Group 1" transform="translate(-300 -55)">
+            <line id="Line_4" data-name="Line 4" x1="54" transform="translate(300 67)" fill="none" stroke="#fff" stroke-width="4"/>
+            <line id="Line_5" data-name="Line 5" x1="31" transform="translate(323 57)" fill="none" stroke="#fff" stroke-width="4"/>
+        </g>
+    </svg>
+</a>-->
+    <span class="menu-btn">
+        <span class="menu-btn__burger"></span>
+    </span>
+
+</nav>
+    <div class="list-menu">
+        <ul class="list-menu__list">
+            <li><a href="/">HOME</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="/about">ABOUT</a></li>
+        </ul>
+    </div>
+</header>
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const menuNav = document.querySelector('.list-menu');
+    let menuOpen = false;
+    menuBtn.addEventListener('click', () => {
+        if(!menuOpen) {
+            menuBtn.classList.add('open');
+            menuNav.style.width = "100%";
+            menuOpen = true;
+        } else {
+            menuBtn.classList.remove('open');
+            menuNav.style.width = "0%";
+            menuOpen = false;
+        }
+    });
+    
+</script>
+
+    <article class="container contact">
+    <article class="contact__text">
+        <h1 class="contact__text-title">Contact me!</h1>
+        <p class="contact__text-paragraph">I'd like to help you out</p>
+    </article>
+    <article class="contact__data">
+        
+    </article>
+</article>
+
+<footer>
+    <div class="container">
+        <ul class="socials">
+            <li class="socials__item"><a href="#"><i class="fa fa-github"></i></a></li>
+            <li class="socials__item"><a href="#"><i class="fa fa-stack-overflow"></i></a></li>
+            <li class="socials__item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+        <p class="copy">Copyright 2021 @ Lucas Heymans</p>
+    </div>
+</footer>
+</body>
+</html>

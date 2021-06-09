@@ -16,6 +16,23 @@
             margin:-1.2rem 0;
         }
     }
+    @media (min-width: 768px){
+        &__title{
+            margin-top: 0rem;
+            &-small.hello{
+                position: relative;
+                font-size:3rem;
+            }
+            &-big{
+                font-size:8rem;
+                line-height: 7.5rem;
+            }
+            &-small{
+                font-size:2.5rem;
+
+            }
+        }
+    }
 }
 
 .text-cont{

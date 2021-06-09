@@ -81,6 +81,7 @@
         
         list-style: none;
         padding: 0;
+        
         li{
             padding: 3rem;
             a{
@@ -105,6 +106,15 @@
                     width: 100%;
                 }
             }
+        }
+        @media (min-width: 992px){
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height:50%;
+            li{
+                width:33%;
+            }    
         }
 
     }

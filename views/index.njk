@@ -7,17 +7,23 @@ eleventyNavigation:
 ---
 
 <div class="landing container">
-    <div class="landing__title">
-        <h4 class="landing__title-small">Hello i'm</h4>
-        <h1 class="landing__title-big">Lucas<br>Heymans</h1>
-        <h4 class="landing__title-small">I'm a front-end developer & UI/UX designer based in Belgium.</h4>
-    </div>
+    <article class="landing__title">
+        <span class="leftside">
+            <h4 class="landing__title-small hello">Hello i'm</h4>
+            <h1 class="landing__title-big">Lucas<br>Heymans</h1>
+        </span>
+        <span class="rightside">
+            <h4 class="landing__title-small">I'm a front-end developer & UI/UX designer based in Belgium.</h4>
+        </span>
+    </article>
     <div class="image person">
         <img src="assets/img/ik.jpg" alt="">
+        <span class="line"></span>
+        <article class="text-cont">
+            <p class="text-cont__discover">Discover more <a href="/about">about me</a></p>
+        </article>
     </div>
-    <div class="text-cont">
-        <p class="text-cont__discover">Discover more <a href="#">about me</a></p>
-    </div>
+    
 </div>
 <div class="container white">
     <article class="program">
@@ -32,8 +38,9 @@ eleventyNavigation:
 <div class="container orange">
     <h2 class="subtitle">My projects</h2>
     {% for project in project %}
-        <div class="test">
-            <img src="{{ project.img }}" alt="">
+        <div class="projects">
+            <img class="projects__img" src="{{ project.img }}" alt="">
+            <h3 class="projects__title">{{ project.specie }}</h3>
         </div>
     {% endfor %}
 </div>
