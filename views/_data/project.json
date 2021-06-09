@@ -1,0 +1,32 @@
+[
+    {
+        "specie": "UI/UX Design",
+        "img": "assets/img/project/banner2.jpg",
+        "link": "/project/uiuxdesign",
+        "projects": [
+            {
+                "title": "",
+                "img": "",
+                "link": "",
+                "text": ""
+            }
+        ]
+            
+        
+    },
+    {
+        "specie": "front-end",
+        "img": "assets/img/project/front.jpg",
+        "link": "/project/uiuxdesign",
+        "projects": [
+            {
+                "title": "",
+                "img": "",
+                "link": "",
+                "text": ""
+            }
+        ]
+            
+        
+    }
+]

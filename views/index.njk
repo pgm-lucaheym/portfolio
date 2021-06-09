@@ -13,6 +13,27 @@ eleventyNavigation:
         <h4 class="landing__title-small">I'm a front-end developer & UI/UX designer based in Belgium.</h4>
     </div>
     <div class="image person">
-        <img src="assets/img/IMG_20210403_161811.jpg" alt="">
+        <img src="assets/img/ik.jpg" alt="">
     </div>
+    <div class="text-cont">
+        <p class="text-cont__discover">Discover more <a href="#">about me</a></p>
+    </div>
+</div>
+<div class="container white">
+    <article class="program">
+        <h2 class="program__title subtitle">I can work with</h2>
+        <ul class="program__list">
+        {% for program in work %}
+            <li class="program__list-item"><img src="{{ program.img }}" alt=""></li>
+        {% endfor %}
+        </ul>
+    </article>
+</div>
+<div class="container orange">
+    <h2 class="subtitle">My projects</h2>
+    {% for project in project %}
+        <div class="test">
+            <img src="{{ project.img }}" alt="">
+        </div>
+    {% endfor %}
 </div>

@@ -1,0 +1,35 @@
+[
+    {
+        "title":"photoshop",
+        "img": "assets/img/socials/photoshop.png"
+    },
+    {
+        "title":"illustrator",
+        "img": "assets/img/socials/illustrator.png"
+    },
+    {
+        "title":"XD",
+        "img": "assets/img/socials/xd.png"
+    },
+    {
+        "title":"VsCode",
+        "img": "assets/img/socials/vs.png"
+    },
+    {
+        "title":"HTML5",
+        "img": "assets/img/socials/html.png"
+    },
+    {
+        "title":"CSS3",
+        "img": "assets/img/socials/css.png"
+    }
+    ,
+    {
+        "title":"JavaScript",
+        "img": "assets/img/socials/Javascript_Logo.png"
+    },
+    {
+        "title":"React",
+        "img": "assets/img/socials/react.png"
+    }
+]

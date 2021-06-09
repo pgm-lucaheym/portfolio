@@ -6,20 +6,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Heymans - Home</title>
     <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
 <nav class="nav container">
-<a href="#">
+<!--<a href="#">
     <svg xmlns="http://www.w3.org/2000/svg" width="54" height="14" viewBox="0 0 54 14">
         <g id="Group_1" data-name="Group 1" transform="translate(-300 -55)">
             <line id="Line_4" data-name="Line 4" x1="54" transform="translate(300 67)" fill="none" stroke="#fff" stroke-width="4"/>
             <line id="Line_5" data-name="Line 5" x1="31" transform="translate(323 57)" fill="none" stroke="#fff" stroke-width="4"/>
         </g>
     </svg>
-</a>
+</a>-->
+    <span class="menu-btn">
+        <span class="menu-btn__burger"></span>
+    </span>
+
 </nav>
+    <div class="list-menu">
+        <ul class="list-menu__list">
+            <li><a href="">HOME</a></li>
+            <li><a href="">PROJECTS</a></li>
+            <li><a href="">ABOUT</a></li>
+        </ul>
+    </div>
 </header>
+<script>
+    const menuBtn = document.querySelector('.menu-btn');
+    const menuNav = document.querySelector('.list-menu');
+    let menuOpen = false;
+    menuBtn.addEventListener('click', () => {
+        if(!menuOpen) {
+            menuBtn.classList.add('open');
+            menuNav.style.width = "100%";
+            menuOpen = true;
+        } else {
+            menuBtn.classList.remove('open');
+            menuNav.style.width = "0%";
+            menuOpen = false;
+        }
+    });
+    
+</script>
 
     
 <div class="landing container">
@@ -29,9 +58,57 @@
         <h4 class="landing__title-small">I'm a front-end developer & UI/UX designer based in Belgium.</h4>
     </div>
     <div class="image person">
-        <img src="assets/img/IMG_20210403_161811.jpg" alt="">
+        <img src="assets/img/ik.jpg" alt="">
+    </div>
+    <div class="text-cont">
+        <p class="text-cont__discover">Discover more <a href="#">about me</a></p>
     </div>
 </div>
+<div class="container white">
+    <article class="program">
+        <h2 class="program__title subtitle">I can work with</h2>
+        <ul class="program__list">
+        
+            <li class="program__list-item"><img src="assets/img/socials/photoshop.png" alt=""></li>
+        
+            <li class="program__list-item"><img src="assets/img/socials/illustrator.png" alt=""></li>
+        
+            <li class="program__list-item"><img src="assets/img/socials/xd.png" alt=""></li>
+        
+            <li class="program__list-item"><img src="assets/img/socials/vs.png" alt=""></li>
+        
+            <li class="program__list-item"><img src="assets/img/socials/html.png" alt=""></li>
+        
+            <li class="program__list-item"><img src="assets/img/socials/css.png" alt=""></li>
+        
+            <li class="program__list-item"><img src="assets/img/socials/Javascript_Logo.png" alt=""></li>
+        
+            <li class="program__list-item"><img src="assets/img/socials/react.png" alt=""></li>
+        
+        </ul>
+    </article>
+</div>
+<div class="container orange">
+    <h2 class="subtitle">My projects</h2>
+    
+        <div class="test">
+            <img src="assets/img/project/banner2.jpg" alt="">
+        </div>
+    
+        <div class="test">
+            <img src="assets/img/project/front.jpg" alt="">
+        </div>
+    
+</div>
 
+<footer>
+    <div class="container">
+        <ul class="socials">
+            <li class="socials__item"><a href="#"><i class="fa fa-github"></i></a></li>
+            <li class="socials__item"><a href="#"><i class="fa fa-stack-overflow"></i></a></li>
+            <li class="socials__item"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>
