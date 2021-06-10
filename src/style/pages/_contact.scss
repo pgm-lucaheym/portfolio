@@ -1,4 +1,8 @@
 .contact{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     &__text{
         font-family: $primary-font;
     }
@@ -8,19 +12,12 @@
         margin-top: 3rem;
         &-list{
             list-style: none;
-            display: flex;
-            justify-content: space-around;
             padding:2rem;
             li{
-                padding: 1rem;
-                background-color: $primary-color;
-                border-radius: 12px;
-                a{
-
-                    color: white;
-                    font-size: 2rem;
-                }
-            }
+                margin-top:1rem;
+                margin-bottom: 1rem;
+                font-family: $primary-font;
+        }
         }
     }
 }
