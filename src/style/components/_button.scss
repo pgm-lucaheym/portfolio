@@ -41,3 +41,13 @@
         width: 100%;
     }
 }
+.top{
+    font-family: $primary-font;
+    position: fixed;
+    color:#fff;
+    bottom: 20px;
+    right: 10px;
+    padding: 1rem;
+    background-color:$primary-color;
+    z-index: 100;
+}
