@@ -1,0 +1,20 @@
+---
+layout: landing
+title: Projects
+eleventyNavigation: 
+    key: Contact
+    order: 3
+---
+<article class="container orange">
+    {% for project in project %}
+        <div class="projects">
+        <a href="{{ project.link }}">
+            <img class="projects__img" src="/{{ project.img }}" alt="">
+            <h3 class="projects__title">{{ project.specie }}</h3>
+        </a>
+        </div>
+    {% endfor %}
+    <article class="project__front">
+    
+    </article>
+</article>

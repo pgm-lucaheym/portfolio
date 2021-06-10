@@ -39,8 +39,10 @@ eleventyNavigation:
     <h2 class="subtitle">My projects</h2>
     {% for project in project %}
         <div class="projects">
+        <a href="{{ project.link }}">
             <img class="projects__img" src="{{ project.img }}" alt="">
             <h3 class="projects__title">{{ project.specie }}</h3>
+        </a>
         </div>
     {% endfor %}
 </div>

@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Gentse feesten website",
+        "img": "{{ 'assets/img/project/ghent.png' | url }}"
+    },
+    {
+        "title": "Arne Quinzen",
+        "img": "{{ 'assets/img/project/arne.jpg' | url }}"
+    }
+]

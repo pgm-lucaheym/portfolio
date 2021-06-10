@@ -2,12 +2,12 @@
     {
         "specie": "UI/UX Design",
         "img": "{{ 'assets/img/project/banner2.jpg' | url }}",
-        "link": "{{'/project/uiuxdesign' | url }}",
+        "link": "{{'/projects/uiux' | url }}",
         "projects": [
             {
-                "title": "",
-                "img": "",
-                "link": "",
+                "title": "My walking app",
+                "img": "{{'/projects/uiux' | url }}",
+                "link": "#",
                 "text": ""
             }
         ]
@@ -17,7 +17,7 @@
     {
         "specie": "front-end",
         "img": "assets/img/project/front2.jpg",
-        "link": "{{'/project/uiuxdesign' | url }}",
+        "link": "{{'/projects/front' | url }}",
         "projects": [
             {
                 "title": "",

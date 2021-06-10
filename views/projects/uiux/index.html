@@ -1,0 +1,20 @@
+---
+layout: landing
+title: UI/UX Design
+eleventyNavigation: 
+    key: Home
+    order: 0
+---
+
+<article class="container port-projects">
+<a class="back" href="{{ '/projects' | url }}">go back to projects</a>
+<h1>UI/UX</h1>
+    {% for project in ui %}
+        <article class="item">
+        <a href="">
+            <img src="/{{ project.img }}" alt="">
+            <h2>{{ project.title }}</h2>
+        </a>
+        </article>
+    {% endfor %}
+</article>

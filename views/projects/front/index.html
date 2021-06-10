@@ -1,0 +1,21 @@
+---
+layout: landing
+title: Front-end
+eleventyNavigation: 
+    key: Home
+    order: 0
+---
+
+<article class="container port-projects">
+<a class="back" href="{{ '/projects' | url }}">go back to projects</a>
+<h1>Front-end</h1>
+
+    {% for project in front %}
+        <article class="item">
+        <a href="">
+            <img src="/{{ project.img }}" alt="">
+            <h2>{{ project.title }}</h2>
+        </a>
+        </article>
+    {% endfor %}
+</article>

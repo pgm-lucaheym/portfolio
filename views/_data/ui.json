@@ -1,0 +1,18 @@
+[
+    {
+        "title": "My walking app",
+        "img": "{{ 'assets/img/project/banner2.jpg' | url }}"
+    },
+    {
+        "title": "Covid Live tracker",
+        "img": "{{ 'assets/img/project/covid.jpg' | url }}"
+    },
+    {
+        "title": "Graffiti webshop",
+        "img": "{{ 'assets/img/project/webshop.jpg' | url }}"
+    },
+    {
+        "title": "Wintergroen op het terras",
+        "img": "{{ 'assets/img/project/wintergroen.jpg' | url }}"
+    }
+]
